@@ -1,0 +1,99 @@
+Gerardo Zeledon Martinez
+2016243863
+
+
+Fecha: dom 16 feb 20:24:31 CST 2020
+Usuario: gerardo
+Version del kernel: 5.3.0-28-generic
+Lista de procesos:
+
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+gerardo   1007  0.0  0.1  77020  8304 ?        Ss   19:31   0:00 /lib/systemd/systemd --user
+gerardo   1008  0.0  0.0 114212  2808 ?        S    19:31   0:00 (sd-pam)
+gerardo   1043  0.0  0.1 436192  8236 ?        SLl  19:31   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+gerardo   1053  0.0  0.0 212300  6144 tty1     Ssl+ 19:31   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+gerardo   1055 12.7  0.8 600900 66348 tty1     Sl+  19:31   7:02 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+gerardo   1082  0.0  0.0  51000  5460 ?        Ss   19:31   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gerardo   1085  0.0  0.2 652492 16836 tty1     Sl+  19:31   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+gerardo   1143  0.0  0.0      0     0 tty1     Z+   19:31   0:00 [xbrlapi] <defunct>
+gerardo   1163  0.0  0.0  11300   324 ?        Ss   19:31   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+gerardo   1166  0.0  0.0 292148  7024 ?        Ssl  19:31   0:00 /usr/lib/gvfs/gvfsd
+gerardo   1171  0.0  0.0 432020  7960 ?        Sl   19:31   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+gerardo   1181  0.0  0.1 367868  8964 ?        Ssl  19:31   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+gerardo   1186  0.0  0.0  50060  4412 ?        S    19:31   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gerardo   1189  0.0  0.0 220788  6964 ?        Sl   19:31   0:01 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+gerardo   1223 13.7  2.6 3933628 211452 tty1   Sl+  19:31   7:33 /usr/bin/gnome-shell
+gerardo   1263  3.5  0.1 1959036 13264 ?       S<l  19:31   1:55 /usr/bin/pulseaudio --start --log-target=syslog
+gerardo   1319  0.4  0.1 378084 10296 tty1     Sl   19:31   0:15 ibus-daemon --xim --panel disable
+gerardo   1323  0.0  0.1 297084  9040 tty1     Sl   19:31   0:00 /usr/lib/ibus/ibus-dconf
+gerardo   1325  0.0  0.2 356984 23172 tty1     Sl   19:31   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gerardo   1327  0.0  0.1 295028  8952 ?        Sl   19:31   0:00 /usr/lib/ibus/ibus-portal
+gerardo   1332  0.0  0.0 271860  5512 ?        Ssl  19:31   0:00 /usr/libexec/xdg-permission-store
+gerardo   1342  0.0  0.2 696396 21568 ?        Sl   19:31   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+gerardo   1348  0.0  0.3 694844 26888 ?        Ssl  19:31   0:00 /usr/lib/evolution/evolution-source-registry
+gerardo   1360  0.0  0.1 320572 11460 ?        Ssl  19:31   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+gerardo   1365  0.0  0.4 781984 32916 ?        Sl   19:31   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+gerardo   1367  0.0  0.0 379016  7752 ?        Ssl  19:31   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+gerardo   1372  0.0  0.0 288952  6776 ?        Ssl  19:31   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+gerardo   1376  0.0  0.0 276036  6088 ?        Ssl  19:31   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+gerardo   1380  0.0  0.0 274240  6132 ?        Ssl  19:31   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+gerardo   1391  0.0  0.1 319888 10288 ?        Sl   19:31   0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+gerardo   1397  0.0  0.3 528064 24692 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+gerardo   1398  0.0  0.1 349528 10360 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gerardo   1400  0.0  0.0 423420  6072 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gerardo   1403  0.0  0.0 275940  4860 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gerardo   1404  0.0  0.1 471640 12408 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gerardo   1411  0.0  0.3 505428 24240 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gerardo   1418  0.0  0.1 393040 10288 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gerardo   1422  0.0  0.1 343416 10232 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gerardo   1425  0.0  0.2 515356 23136 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gerardo   1436  0.0  0.1 296964  8656 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gerardo   1438  0.0  0.3 688060 25800 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-color
+gerardo   1444  0.0  0.2 356780 22428 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gerardo   1446  0.0  0.1 375004  9060 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gerardo   1448  0.0  0.1 477028 15452 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gerardo   1452  0.0  0.3 951416 26080 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gerardo   1453  0.0  0.2 517440 23736 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gerardo   1454  0.0  0.1 296960  8596 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gerardo   1474  0.0  0.1 508972 12660 tty1     Sl+  19:31   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+gerardo   1511  0.0  0.0 271932  6392 tty1     Sl+  19:31   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+gerardo   1512  0.0  0.7 1017396 63080 tty1    Sl+  19:31   0:02 nautilus-desktop
+gerardo   1538  0.0  0.8 894720 67796 ?        Ssl  19:31   0:00 /usr/lib/evolution/evolution-calendar-factory
+gerardo   1564  0.0  0.1 384360 10436 ?        Sl   19:31   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+gerardo   1587  0.1  0.1 221356  8884 tty1     Sl   19:31   0:04 /usr/lib/ibus/ibus-engine-simple
+gerardo   1594  0.0  0.0 187904  5160 ?        Sl   19:31   0:00 /usr/lib/dconf/dconf-service
+gerardo   1599  0.0  0.7 1069224 63404 ?       Sl   19:31   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1538x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1538/2
+gerardo   1608  0.0  0.3 735364 24804 ?        Ssl  19:31   0:00 /usr/lib/evolution/evolution-addressbook-factory
+gerardo   1619  0.0  0.3 876896 27348 ?        Sl   19:31   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1608x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1608/2
+gerardo   1658  0.1  0.4 805140 38860 ?        Ssl  19:31   0:05 /usr/lib/gnome-terminal/gnome-terminal-server
+gerardo   1667  0.0  0.0  29724  4736 pts/0    Ss+  19:31   0:00 bash
+gerardo   1678  0.5  1.7 1242784 139324 ?      SLl  19:31   0:16 /usr/bin/gnome-software --gapplication-service
+gerardo   1761  0.0  0.4 730572 34200 tty1     Sl+  19:32   0:00 update-notifier
+gerardo   1780 18.1  3.4 1133176 275952 tty1   RLl+ 19:32   9:47 /usr/lib/x86_64-linux-gnu/opera/opera --new-window
+gerardo   1787  0.0  0.7 489152 58084 tty1     S+   19:32   0:00 /usr/lib/x86_64-linux-gnu/opera/opera --type=zygote
+gerardo   1789  0.0  0.1 489152 14312 tty1     S+   19:32   0:00 /usr/lib/x86_64-linux-gnu/opera/opera --type=zygote
+gerardo   1808 31.2  1.9 684536 157796 tty1    Sl+  19:32  16:49 /usr/lib/x86_64-linux-gnu/opera/opera --type=gpu-process --field-trial-handle=8934100597105773770,8748663414406285655,131072 --ab_tests=DNA-70598-ref:DNA-70598 --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=7087971803404709282
+gerardo   1812  4.3  1.1 598492 93384 tty1     SLl+ 19:32   2:21 /usr/lib/x86_64-linux-gnu/opera/opera --type=utility --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --service-sandbox-type=network --enable-quic --ab_tests=DNA-70598-ref:DNA-70598 --service-request-channel-token=14211076157215673505 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   1947  0.0  0.6 725960 52268 tty1     Sl+  19:33   0:00 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=1688700886834834472 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   1949  0.0  1.1 753996 88848 tty1     Sl+  19:33   0:00 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --extension-process --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=14957583649935597854 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   1960  1.1  0.7 1062348 56016 tty1    Sl+  19:33   0:36 /proc/self/exe --type=utility --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --service-sandbox-type=audio --enable-quic --ab_tests=DNA-70598-ref:DNA-70598 --service-request-channel-token=16643644172601170193 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   1967  0.1  1.5 790136 121736 tty1    Sl+  19:33   0:05 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=2778282870927488890 --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   1978  0.0  1.5 803120 119788 tty1    Sl+  19:33   0:02 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=17438500232989902924 --renderer-client-id=10 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   1985  0.0  1.0 754440 86156 tty1     Sl+  19:33   0:01 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=8939405719956974325 --renderer-client-id=11 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   1989  0.0  1.2 767116 99192 tty1     Sl+  19:33   0:01 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=1072961529824553967 --renderer-client-id=12 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   2256  0.0  1.4 785388 119332 tty1    Sl+  19:33   0:02 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --extension-process --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=915753015618746501 --renderer-client-id=19 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   2332  2.9  2.0 838472 159924 tty1    Sl+  19:33   1:32 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --extension-process --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=898607791538138182 --renderer-client-id=21 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   2398  0.4  0.8 698260 65764 tty1     Sl+  19:33   0:14 /usr/lib/x86_64-linux-gnu/opera/opera --type=ppapi --field-trial-handle=8934100597105773770,8748663414406285655,131072 --ppapi-flash-args --lang=es-419 --ab_tests=DNA-70598-ref:DNA-70598 --service-request-channel-token=9370614710025994589
+gerardo   3832  0.0  0.6 725960 53984 tty1     Sl+  19:39   0:00 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3951433743668334411 --renderer-client-id=46 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   3849  6.6  1.5 792020 126784 tty1    Sl+  19:39   3:05 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=1311000092048880788 --renderer-client-id=48 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   4098 15.4  4.7 1319288 380800 tty1   Sl+  19:39   7:11 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --extension-process --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3843465495973227774 --renderer-client-id=50 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   5906 32.1  5.3 1221828 423864 tty1   Sl+  19:48  12:08 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=2248634879321181140 --renderer-client-id=59 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   9714  0.4  1.6 813468 134732 tty1    Sl+  20:01   0:06 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=5968762826988926199 --renderer-client-id=72 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo   9743  1.2  2.7 3166788 220172 tty1   Sl+  20:01   0:18 /usr/share/spotify/spotify
+gerardo   9749  0.0  0.7 567820 61392 tty1     S+   20:02   0:00 /usr/share/spotify/spotify --type=zygote --no-sandbox --log-file=/usr/share/spotify/debug.log --log-severity=disable --product-version=Spotify/1.1.10.546 --lang=en-US
+gerardo   9761  0.0  1.1 1081420 94932 tty1    Sl+  20:02   0:00 /usr/share/spotify/spotify --type=gpu-process --field-trial-handle=8171445223011824128,6292520046844509548,131072 --disable-features=ExtendedMouseButtons,NetworkService --no-sandbox --log-file=/usr/share/spotify/debug.log --log-severity=disable --product-version=Spotify/1.1.10.546 --lang=en-US --gpu-preferences=KAAAAAAAAAAgAAAgAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --log-file=/usr/share/spotify/debug.log --service-request-channel-token=926423997408343340
+gerardo   9788  1.0  2.7 1613864 222832 tty1   Sl+  20:02   0:15 /usr/share/spotify/spotify --type=renderer --no-sandbox --log-file=/usr/share/spotify/debug.log --field-trial-handle=8171445223011824128,6292520046844509548,131072 --disable-features=ExtendedMouseButtons,NetworkService --lang=es-419 --log-file=/usr/share/spotify/debug.log --log-severity=disable --product-version=Spotify/1.1.10.546 --disable-spell-checking --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=6643554260329793073 --renderer-client-id=3 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo  14767  0.0  0.6 725960 53496 tty1     Sl+  20:17   0:00 /usr/lib/x86_64-linux-gnu/opera/opera --type=renderer --field-trial-handle=8934100597105773770,8748663414406285655,131072 --lang=es-419 --disable-oor-cors --enable-auto-reload --ab_tests=DNA-70598-ref:DNA-70598 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10061330489012312080 --renderer-client-id=81 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gerardo  15367  0.2  0.0  29856  5388 pts/1    Ss   20:21   0:00 bash
+gerardo  15534  5.0  0.0  46852  3688 pts/1    R+   20:26   0:00 ps -ux
