@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/mathC.h
+
+/home/gerardo/Documentos/Embebidos/Taller5/cmake/libmathc/calculadora.c
+stdio.h
+-
+mathC.h
+-
+

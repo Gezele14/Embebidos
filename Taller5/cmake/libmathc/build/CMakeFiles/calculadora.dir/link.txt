@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/calculadora.dir/calculadora.c.o  -o calculadora -Wl,-rpath,/home/gerardo/Documentos/Embebidos/Taller5/cmake/libmathc/build/lib: lib/libmathC.so 

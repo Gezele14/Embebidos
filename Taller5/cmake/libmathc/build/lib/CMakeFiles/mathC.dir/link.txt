@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libmathC.so -o libmathC.so CMakeFiles/mathC.dir/mathC.c.o 

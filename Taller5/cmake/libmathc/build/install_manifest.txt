@@ -1,0 +1,3 @@
+/home/gerardo/Documentos/Embebidos/Taller5/cmake/libmathc/build/usr/bin/calculadora
+/home/gerardo/Documentos/Embebidos/Taller5/cmake/libmathc/build/usr/lib/libmathC.so
+/home/gerardo/Documentos/Embebidos/Taller5/cmake/libmathc/build/usr/include/mathC.h

@@ -1,7 +1,0 @@
-/home/gerardo/Documentos/Embebidos/Taller#5/cmake/helloworld/build/CMakeFiles/install/strip.dir
-/home/gerardo/Documentos/Embebidos/Taller#5/cmake/helloworld/build/CMakeFiles/edit_cache.dir
-/home/gerardo/Documentos/Embebidos/Taller#5/cmake/helloworld/build/CMakeFiles/hello.dir
-/home/gerardo/Documentos/Embebidos/Taller#5/cmake/helloworld/build/CMakeFiles/rebuild_cache.dir
-/home/gerardo/Documentos/Embebidos/Taller#5/cmake/helloworld/build/CMakeFiles/list_install_components.dir
-/home/gerardo/Documentos/Embebidos/Taller#5/cmake/helloworld/build/CMakeFiles/install/local.dir
-/home/gerardo/Documentos/Embebidos/Taller#5/cmake/helloworld/build/CMakeFiles/install.dir
